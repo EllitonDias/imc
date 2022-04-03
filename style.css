@@ -1,0 +1,51 @@
+body{
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    color: white;
+}
+#btn{
+    background-color: aliceblue;
+    color: black;
+    font-size: xx-small;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+section{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset{
+    width: 30%;
+    background-color: white;
+    border-radius: 5px;
+}
+.fml{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+input{
+    border-radius: 5px;
+}
+button{
+    background-color: aqua;
+    border-radius: 5px;
+}
+.light-theme {
+    background-color: aliceblue;
+}
+
+.dark-theme {
+    background-color: rgb(255, 1, 107);
+}

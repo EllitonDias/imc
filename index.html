@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cálculo de massa corporal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="light-theme">
+    <header>
+      <h1>CÁLCULO DE MASSA CORPORAL</h1>
+      <button id="btn">Pink</button>
+    </header>
+
+    <section>
+      <form name="formulario">
+        <fieldset>
+          <legend class="fml">Formulário</legend>
+
+          <label for="altura">Altura</label><br />
+          <input type="text" , id="altura" , name="altura" /><br />
+
+          <label for="peso">Peso</label><br />
+          <input type="text" , id="peso" , name="peso" /><br /><br />
+
+          <button type="button" , id="calcular">Calcular</button>
+          <button type="button" , id="limpar">Limpar</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <section>
+      <label>Resultado: </label>
+      <div id="res"></div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
